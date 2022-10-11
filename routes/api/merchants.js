@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-var Merchant = require('../../models/Merchant.js');
+var Merchant = require('../../models/merchant.js');
 
 
 router.post('/', function(req, res, next) {
